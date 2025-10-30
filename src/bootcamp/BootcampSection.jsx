@@ -14,7 +14,7 @@ export default function BootcampSection() {
   );
 
   return (
-    <section className="bg-[#0D4A86] text-white py-20 sm:py-24 px-4 sm:px-8 md:px-20 mt-10 sm:mt-16 md:mt-20">
+    <section className="bg-[#0D4A86] text-white py-20 sm:py-24 px-4 sm:px-8 md:px-20 mt-0 sm:mt-10 md:mt-0">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12 items-center">
         {/* ---------- LEFT CONTENT ---------- */}
         <div className="text-center md:text-left">
