@@ -2,6 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import HomePage from "./pages/HomePage";
+import BlogPage from "./resourcepage/BlogPage";
+import Footer from "./components/Footer";
+import CaseStudiesPage from "./resourcepage/CaseStudiesPage";
+import FreeToolsPage from "./resourcepage/FreeToolsPage ";
+import ServicesPage from "./servicepage/ServicesPage ";
 
 function App() {
   return (
@@ -10,7 +15,12 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
+           <Route path="/blog" element={<BlogPage />} />
+           <Route path="/case-studies" element={<CaseStudiesPage />} />
+           <Route path="/free-tools" element={<FreeToolsPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
